@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelajah Nusa - Travel Agency</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="#beranda" class="logo">
+            <span class="logo-ikon">🌴</span> Jelajah Nusa
+          </a>
+
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Buka menu"
+            aria-expanded="false"
+            aria-controls="menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="menu" id="menu">
+            <li><a href="#beranda" class="nav-link">Beranda</a></li>
+            <li><a href="#destinasi" class="nav-link">Destinasi</a></li>
+            <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+            <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            <li><a href="#kontak" class="btn btn-nav">Pesan Sekarang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="hero" id="beranda">
+      <div class="container hero-konten">
+        <span class="hero-badge">✈️ Paket wisata ke seluruh Indonesia</span>
+
+        <h1>Liburan Impianmu <span>Dimulai dari Sini</span></h1>
+
+        <p class="hero-teks">
+          Temukan paket wisata terbaik ke berbagai sudut Indonesia dengan harga
+          bersahabat, dipandu orang lokal yang paham daerahnya.
+        </p>
+
+        <div class="hero-aksi">
+          <a href="#destinasi" class="btn btn-besar">Lihat Paket Wisata</a>
+        </div>
+
+        <div class="hero-stat">
+          <div><strong>4</strong><span>Destinasi favorit</span></div>
+          <div><strong>24 Jam</strong><span>Layanan pelanggan</span></div>
+          <div><strong>100%</strong><span>Harga transparan</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Destinasi -->
+    <section id="destinasi">
+      <div class="container">
+        <div class="judul">
+          <h2>Destinasi Populer</h2>
+          <p>Pilihan favorit wisatawan bulan ini</p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <div
+              class="foto"
+              style="background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600');"
+            ></div>
+            <div class="isi">
+              <h3>Bali</h3>
+              <p>Pantai, pura, dan sunset yang bikin betah.</p>
+              <p class="harga">Mulai Rp 2.500.000</p>
+              <button type="button" class="btn btn-detail" data-id="bali">
+                Lihat Selengkapnya
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="foto"
+              style="background-image: url('https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=600');"
+            ></div>
+            <div class="isi">
+              <h3>Gunung Bromo</h3>
+              <p>Lihat matahari terbit dari atas lautan awan.</p>
+              <p class="harga">Mulai Rp 1.200.000</p>
+              <button type="button" class="btn btn-detail" data-id="bromo">
+                Lihat Selengkapnya
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="foto"
+              style="background-image: url('https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?w=600');"
+            ></div>
+            <div class="isi">
+              <h3>Raja Ampat</h3>
+              <p>Surga snorkeling dengan laut sebening kaca.</p>
+              <p class="harga">Mulai Rp 5.800.000</p>
+              <button type="button" class="btn btn-detail" data-id="rajaampat">
+                Lihat Selengkapnya
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="foto"
+              style="background-image: url('https://images.unsplash.com/photo-1571366343168-631c5bcca7a4?w=600');"
+            ></div>
+            <div class="isi">
+              <h3>Labuan Bajo</h3>
+              <p>Berlayar sambil bertemu komodo.</p>
+              <p class="harga">Mulai Rp 3.900.000</p>
+              <button type="button" class="btn btn-detail" data-id="labuanbajo">
+                Lihat Selengkapnya
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section class="abu" id="keunggulan">
+      <div class="container">
+        <div class="judul">
+          <h2>Kenapa Pilih Kami?</h2>
+        </div>
+        <div class="grid">
+          <div class="fitur">
+            <div class="ikon">💰</div>
+            <h3>Harga Jelas</h3>
+            <p>Tanpa biaya tersembunyi.</p>
+          </div>
+          <div class="fitur">
+            <div class="ikon">🧭</div>
+            <h3>Pemandu Lokal</h3>
+            <p>Dipandu orang yang paham daerahnya.</p>
+          </div>
+          <div class="fitur">
+            <div class="ikon">🛟</div>
+            <h3>Aman &amp; Nyaman</h3>
+            <p>Dilengkapi asuransi perjalanan.</p>
+          </div>
+          <div class="fitur">
+            <div class="ikon">📞</div>
+            <h3>Layanan 24 Jam</h3>
+            <p>Tim kami siap membantu kapan saja.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="judul">
+          <h2>Pesan Sekarang</h2>
+          <p>Isi form di bawah, kami hubungi kamu secepatnya.</p>
+        </div>
+        <form id="formPesan" novalidate>
+          <div class="field">
+            <input type="text" id="nama" placeholder="Nama lengkap" />
+            <small class="error"></small>
+          </div>
+
+          <div class="field">
+            <input type="email" id="email" placeholder="Email" />
+            <small class="error"></small>
+          </div>
+
+          <div class="field">
+            <select id="pilihDestinasi">
+              <option value="">Pilih destinasi</option>
+              <option value="Bali">Bali</option>
+              <option value="Gunung Bromo">Gunung Bromo</option>
+              <option value="Raja Ampat">Raja Ampat</option>
+              <option value="Labuan Bajo">Labuan Bajo</option>
+            </select>
+            <small class="error"></small>
+          </div>
+
+          <div class="field">
+            <textarea id="pesan" rows="4" placeholder="Pesan tambahan"></textarea>
+            <small class="error"></small>
+          </div>
+
+          <div class="notif" id="notifForm" role="alert"></div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Jelajah Nusa Travel. Semua hak dilindungi.</p>
+    </footer>
+
+    <!-- Modal Detail Paket -->
+    <div class="modal-overlay" id="modal" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mJudul">
+        <div class="modal-foto" id="mFoto"></div>
+        <div class="modal-isi">
+          <h2 id="mJudul"></h2>
+          <p class="lokasi">📍 <span id="mLokasi"></span></p>
+
+          <div class="info">
+            <div>
+              <small>Durasi</small>
+              <strong id="mDurasi"></strong>
+            </div>
+            <div>
+              <small>Harga per orang</small>
+              <strong id="mHarga"></strong>
+            </div>
+          </div>
+
+          <p class="deskripsi" id="mDeskripsi"></p>
+
+          <h4>Highlight perjalanan</h4>
+          <ol id="mHighlight"></ol>
+
+          <h4>Fasilitas yang termasuk</h4>
+          <ul class="fasilitas" id="mFasilitas"></ul>
+
+          <div class="aksi">
+            <button type="button" class="btn" id="btnPesan">Pesan Paket</button>
+            <button type="button" class="btn btn-outline" id="btnTutup">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
